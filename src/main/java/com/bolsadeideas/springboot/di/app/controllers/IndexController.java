@@ -12,7 +12,7 @@ import com.bolsadeideas.springboot.di.app.models.services.IServicio;
 public class IndexController {
 	
 	@Autowired
-	@Qualifier("miServicioComplejo")
+	@Qualifier("miServiciosimple")
 	private IServicio miser; 
 
 	/*@Autowired
